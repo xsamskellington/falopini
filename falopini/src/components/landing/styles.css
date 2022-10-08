@@ -1,0 +1,37 @@
+.landing {
+  height: 100vh;
+  background-color: #FDEC08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 40%;
+}
+
+.img {
+  width: 100%;
+  pointer-events: none;
+}
+
+.button {
+  border: none;
+  background: none;
+  font-family: 'Alata', sans-serif;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+@media only screen and (max-width: 768px){
+  .img-container {
+    width: 80%;
+  }
+
+  .button {
+    font-size: 0.80em;
+  }
+}
+
